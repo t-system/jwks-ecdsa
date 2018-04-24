@@ -1,0 +1,33 @@
+{
+  "name": "jwks-ecdsa",
+  "version": "1.0.0",
+  "description": "A small library to retrieve ECDSA signing keys from a JWKS (JSON Web Key Set) endpoint",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\"",
+    "compile": "babel -d lib/ src/",
+    "prepublish": "npm run compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariusespejo/jwks-ecdsa.git"
+  },
+  "keywords": [
+    "jwks",
+    "ecdsa",
+    "jwt"
+  ],
+  "author": "Marius Espejo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mariusespejo/jwks-ecdsa/issues"
+  },
+  "homepage": "https://github.com/mariusespejo/jwks-ecdsa#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  },
+  "dependencies": {
+    "regenerator-runtime": "^0.11.1"
+  }
+}
