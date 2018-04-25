@@ -28,6 +28,7 @@
     "babel-preset-env": "^1.6.1"
   },
   "dependencies": {
-    "regenerator-runtime": "^0.11.1"
+    "axios": "^0.18.0",
+    "jwk-to-pem": "^2.0.0"
   }
 }
