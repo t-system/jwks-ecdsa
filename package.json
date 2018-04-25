@@ -25,11 +25,12 @@
   "homepage": "https://github.com/mariusespejo/jwks-ecdsa#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-env": "^1.6.1"
   },
   "dependencies": {
     "axios": "^0.18.0",
-    "jwk-to-pem": "^2.0.0",
-    "regenerator-runtime": "^0.11.1"
+    "babel-runtime": "^6.26.0",
+    "jwk-to-pem": "^2.0.0"
   }
 }
