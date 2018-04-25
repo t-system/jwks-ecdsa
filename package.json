@@ -1,6 +1,6 @@
 {
   "name": "jwks-ecdsa",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A small library to retrieve ECDSA signing keys from a JWKS (JSON Web Key Set) endpoint",
   "main": "lib/index.js",
   "scripts": {
