@@ -57,8 +57,5 @@ typings/
 # dotenv environment variables file
 .env
 
-# Compiled 
-lib
-
 # Npm configuration
 .npmrc
